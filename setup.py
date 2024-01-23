@@ -10,6 +10,9 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 # Get a list of requirements  
 requirements = [i.strip() for i in open("requirements.txt").readlines()]  
 
+AWS_ACCESS_KEY_ID="AKIAJAA49FFSFRFN6AAA" 
+AWS_SECRET_ACCESS_KEY="u9N1o8s+u3q4uwt9s8dfsdf/afx/d/24449YiNHN"
+
 setup(
       name="pygoat",  
       version="1.2.0",  
